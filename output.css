@@ -908,6 +908,16 @@ input:checked + .toggle-bg {
   border-color: #1C64F2;
 }
 
+@font-face {
+  font-family: 'SZSansDigital-Regular';
+
+  font-style: normal;
+
+  font-display: swap;
+
+  src: url(fonts/SZSansDigital-Regular.woff) format('woff');
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -1190,10 +1200,6 @@ input:checked + .toggle-bg {
 
 .ml-0 {
   margin-left: 0px;
-}
-
-.ml-4 {
-  margin-left: 1rem;
 }
 
 .ms-2 {
@@ -2235,14 +2241,6 @@ input:checked + .toggle-bg {
 @media (min-width: 640px) {
   .sm\:mb-0 {
     margin-bottom: 0px;
-  }
-
-  .sm\:ml-0 {
-    margin-left: 0px;
-  }
-
-  .sm\:ml-4 {
-    margin-left: 1rem;
   }
 
   .sm\:flex-row {
